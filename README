@@ -1,0 +1,24 @@
+Instructions
+============
+
+We'd like you to enhance this web-based charting application.
+
+ * We don't like all the whitespace. Expand the chart to fill the available
+   space in the browser window.
+ * Add support for our new data format (in addition to CSV). You can see an
+   example of the format at http://st.deviantart.com/dt/exercise/data
+ * Extend the program to accept the data file as a GET parameter. The program
+   should use the appropriate Reader based on the file given and should
+   gracefully handle any errors it encounters.
+ * Fix all the bugs, optimize and improve everything that can be. However don't 
+   rewrite the application from scratch, we want you to keep the bulk of the 
+   existing code and leave the overall structure as it is.
+
+We are unable to answer any questions about the program or these requirements.
+If any of the instructions seem ambiguous, use your best judgement.
+
+Extra Credit
+============
+
+ * Change the tooltips so that they display "N weeks ago" instead of timestamps.
+ * Color any bars more than 1 standard deviation from the mean bright red.
